@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jibhi &amp; Shoja Trip — Oct 4–8 (+9) · Stays, Places, Travel, Budget</title>
+<meta name="description" content="22 quiet shortlisted stays, places, itinerary, travel and budget for a Jibhi–Shoja couple trip.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,650&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="./assets/img/stays/stay-01-moonlight-view/stay-01-moonlight-view-01.jpg">
+<link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#stays">Skip to stays</a>
+<header class="nav" id="nav">
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-controls="menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <a href="#top" class="nav__logo" aria-label="Jibhi Shoja trip home"><span class="nav__logo-mark">JS</span><span class="nav__logo-text">Jibhi–Shoja</span></a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#top-picks">Top picks</a><a href="#stays">Stays</a><a href="#places">Places</a><a href="#plan">Plan</a><a href="#travel">Travel</a><a href="#budget">Budget</a>
+  </nav>
+  <div class="nav__right"><a href="#stays" class="nav__cta">22<br><span>Stays</span></a></div>
+</header>
+<div class="menu" id="menu" aria-hidden="true">
+  <button class="menu__close" id="menuClose" aria-label="Close">&times;</button>
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="#top-picks" class="menu__link">Top picks</a><a href="#stays" class="menu__link">Stays</a><a href="#places" class="menu__link">Places</a><a href="#plan" class="menu__link">Plan</a><a href="#travel" class="menu__link">Travel</a><a href="#budget" class="menu__link">Budget</a>
+  </nav>
+  <div class="menu__footer">
+    <p class="menu__phone">Oct 4–8 · + optional Oct 9</p><p data-menu-meta>Couple trip · quiet stays · ₹20–25k cap</p>
+    <div class="menu__cta"><a href="#stays" class="btn btn--solid btn--sm">Browse Stays</a><a href="#plan" class="btn btn--line btn--sm">See Plan</a></div>
+  </div>
+</div>
+<main id="top">
+  <section class="hero" aria-label="Jibhi and Shoja trip introduction">
+    <div class="hero__slide is-active" style="background-image:url('./assets/img/stays/stay-01-moonlight-view/stay-01-moonlight-view-01.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('./assets/img/stays/stay-02-whispering-pines/stay-02-whispering-pines-01.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('./assets/img/places/place-shoja-ridge-01.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('./assets/img/places/place-jalori-pass-01.jpg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">22 quiet shortlisted stays</p><h1 class="hero__title">Jibhi–Shoja couple trip</h1>
+      <p class="hero__sub"><span data-hero-dates>Oct 4–8</span> · <span data-hero-cap>₹20–25k for 2 people</span></p>
+      <div class="hero__actions"><a href="#stays" class="btn btn--solid">Browse Stays</a><a href="#plan" class="btn btn--ghost">View Plan</a></div>
+    </div>
+    <div class="hero__dots" aria-label="Hero photos">
+      <button class="hero__dot is-active" aria-label="Slide 1" type="button"></button><button class="hero__dot" aria-label="Slide 2" type="button"></button><button class="hero__dot" aria-label="Slide 3" type="button"></button><button class="hero__dot" aria-label="Slide 4" type="button"></button>
+    </div>
+  </section>
+  <div id="app" class="site-main"><div class="loading" role="status">Loading the researched trip guide…</div><noscript>This trip guide needs JavaScript to load its researched stays and sections.</noscript></div>
+</main>
+
+<div class="stay-modal" id="stayModal" hidden>
+  <div class="stay-modal__backdrop" data-close-modal></div>
+  <section class="stay-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="stay-modal-title">
+    <button class="stay-modal__close" type="button" aria-label="Close stay details" data-close-modal>&times;</button>
+    <div id="stay-detail-content"></div>
+  </section>
+</div>
+<template id="stay-template">
+  <article class="stay-detail">
+    <div class="stay-detail__media">
+      <figure class="stay-detail__figure">
+        <img class="stay-detail__img" data-role="photo" src="" alt="" loading="eager" fetchpriority="high">
+        <button class="stay-detail__photo-btn stay-detail__photo-btn--prev" type="button" data-photo-prev aria-label="Previous photo">&lsaquo;</button>
+        <button class="stay-detail__photo-btn stay-detail__photo-btn--next" type="button" data-photo-next aria-label="Next photo">&rsaquo;</button>
+        <figcaption class="stay-detail__caption" data-role="photo-caption"></figcaption>
+      </figure>
+      <div class="stay-detail__dots" data-role="photo-dots" aria-label="Stay photos"></div>
+    </div>
+    <div class="stay-detail__body">
+      <a href="#stays" class="back" data-close-modal>&larr; Back to stays</a>
+      <p class="section__label"><span data-role="area"></span> · <span data-role="kind"></span></p>
+      <div class="stay-detail__title-row"><h2 class="section__title" id="stay-modal-title" data-role="name"></h2><span class="variant__flag" data-role="flag" hidden>Over cap edge</span></div>
+      <p class="carpage__tagline" data-role="type"></p>
+      <div class="carpage__specs">
+        <div class="spec"><span class="spec__k">Type</span><span class="spec__v" data-role="spec-type"></span></div>
+        <div class="spec"><span class="spec__k">Location</span><span class="spec__v" data-role="location"></span></div>
+        <div class="spec"><span class="spec__k">Rating</span><span class="spec__v" data-role="rating"></span></div>
+        <div class="spec"><span class="spec__k">Cleanliness</span><span class="spec__v" data-role="cleanliness"></span></div>
+        <div class="spec"><span class="spec__k">View</span><span class="spec__v" data-role="view"></span></div>
+        <div class="spec"><span class="spec__k">Amenities</span><span class="spec__v" data-role="amenities"></span></div>
+      </div>
+      <h3 class="carpage__h2">Researched prices</h3>
+      <div class="price-table-wrap"><table class="price-table"><tbody>
+        <tr><th scope="row">Per-night base</th><td data-role="price-base"></td></tr><tr><th scope="row">Per-night all-in</th><td data-role="price-allin"></td></tr>
+        <tr><th scope="row">4N · Oct 4–8 all-in</th><td data-role="total4"></td></tr><tr><th scope="row">5N · Oct 4–9 all-in</th><td data-role="total5"></td></tr>
+      </tbody></table></div>
+      <h3 class="carpage__h2">Why suggested</h3><p class="stay-detail__why" data-role="why"></p>
+      <div class="carpage__cta"><a class="btn btn--solid" data-role="booking-primary" href="#" target="_blank" rel="noopener">Primary Listing</a><a class="btn btn--line" data-role="booking-hub" href="#" target="_blank" rel="noopener">Booking Hub</a></div>
+    </div>
+  </article>
+</template>
+<script src="./assets/js/site.js"></script>
+</body>
+</html>

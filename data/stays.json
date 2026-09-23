@@ -1,0 +1,640 @@
+[
+  {
+    "slug": "stay-01-moonlight-view",
+    "name": "Moonlight View Cottage — Jibhi",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Hut / Homestay",
+    "location": "Jibhi hills above market (waterfall-road side); ~1.2–1.5 km from Jibhi market; ~10–15 min walk to market cafe cluster (OpenBook/Bleeblu belt)",
+    "price_base": 2100,
+    "price_allin": 2480,
+    "total4": 9920,
+    "total5": 12400,
+    "rating": "4.97 (88 reviews) — Airbnb (Guest Favourite, Superhost, Cleanliness 5.0)",
+    "cleanliness": "5.0/5; reviews repeat “neat wooden interiors, clean bedding/bath”",
+    "view": "Cedar-wood cottage on hill; mountain + valley views from room + sit-out deck; ask upper sun-facing side",
+    "amenities": "Kitchen, WiFi + workspace, parking assistance (host helps with 600 m uphill luggage), bonfire on request",
+    "booking_primary": "https://www.airbnb.com/rooms/52829977",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.com/rooms/52829977"
+    },
+    "photos": [
+      "assets/img/stays/stay-01-moonlight-view/stay-01-moonlight-view-01.jpg",
+      "assets/img/stays/stay-01-moonlight-view/stay-01-moonlight-view-02.jpg",
+      "assets/img/stays/stay-01-moonlight-view/stay-01-moonlight-view-03.jpg",
+      "assets/img/stays/stay-01-moonlight-view/stay-01-moonlight-view-04.jpg"
+    ],
+    "why": "Proven 88-review hill quiet above market noise; wooden Ruskin-Bond aesthetic built by host family. The 600 m climb filters crowds — ideal slow-morning pine-view couple base within walking reach of cafes.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-02-whispering-pines",
+    "name": "Bastiat Stays – Whispering Pines Cabin — Tandi",
+    "area": "Tandi",
+    "kind": "Airbnb",
+    "type": "Airbnb Treehouse / Homestay (book Cabin, not Jacuzzi Treehouse, to hold budget)",
+    "location": "Tandi village above Jibhi (Sajwar/Tandi belt); ~7–8 km drive from Jibhi market; nearest cafe cluster Jibhi market (~20 min drive)",
+    "price_base": 2300,
+    "price_allin": 2710,
+    "total4": 10840,
+    "total5": 13550,
+    "rating": "4.92 (236 reviews) — Airbnb (Superhost, 8 yrs)",
+    "cleanliness": "4.8–4.9; “cozy, well-kept pine interiors”; rustic forest property, not hotel-sterile",
+    "view": "360° Greater Himalaya aspect; pine forest all sides; valley-view deck + lawn access",
+    "amenities": "WiFi + workspace, home-cooked Himachali food (~₹300 veg), bonfire on request, Airtel/Jio good, no loud music after 8 pm",
+    "booking_primary": "https://www.airbnb.com/rooms/26117817",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.com/rooms/26117817"
+    },
+    "photos": [
+      "assets/img/stays/stay-02-whispering-pines/stay-02-whispering-pines-01.jpg",
+      "assets/img/stays/stay-02-whispering-pines/stay-02-whispering-pines-02.jpg",
+      "assets/img/stays/stay-02-whispering-pines/stay-02-whispering-pines-03.jpg",
+      "assets/img/stays/stay-02-whispering-pines/stay-02-whispering-pines-04.jpg"
+    ],
+    "why": "Quintessential quiet/hippie Tandi — wheat fields, orchards, flying squirrels, enforced quiet hours. One of India's most-reviewed Jibhi hosts; best forest-immersion + stargazing pick on the list.",
+    "flag_over_cap": true
+  },
+  {
+    "slug": "stay-03-latoda-treehouse",
+    "name": "Latoda – The Tree House — Ghiyagi/Jibhi forest",
+    "area": "Ghiyagi",
+    "kind": "Airbnb",
+    "type": "Airbnb Treehouse",
+    "location": "Lushal forest between Ghiyagi and Jibhi; ~5–6 km from Jibhi market; ~10 min drive to Ghiyagi/Jibhi cafes",
+    "price_base": 2200,
+    "price_allin": 2600,
+    "total4": 10400,
+    "total5": 13000,
+    "rating": "4.89 (200 reviews) — Airbnb (Guest Favourite)",
+    "cleanliness": "Tagged for cleanliness; “crisp, clean pine-wood interiors”",
+    "view": "Spacious balcony over forest; large windows; rare 6-peak Himalayan view claim; oak trees around; living-tree-through-room in places",
+    "amenities": "Homemade Himachali meals by host, WiFi, parking, forest trail + wooden pathway access",
+    "booking_primary": "https://www.airbnb.co.in/shoja-india/stays (search “Latoda The Tree House Jibhi”)",
+    "booking_hub": {
+      "label": "Airbnb hub",
+      "url": "https://www.airbnb.co.in/shoja-india/stays"
+    },
+    "photos": [
+      "assets/img/stays/stay-03-latoda-treehouse/stay-03-latoda-treehouse-01.jpg",
+      "assets/img/stays/stay-03-latoda-treehouse/stay-03-latoda-treehouse-02.jpg",
+      "assets/img/stays/stay-03-latoda-treehouse/stay-03-latoda-treehouse-03.jpg",
+      "assets/img/stays/stay-03-latoda-treehouse/stay-03-latoda-treehouse-04.jpg"
+    ],
+    "why": "Secluded forest hideaway between Jibhi and Shoja — silent nights, peak views by day, easy scooty access both ways. Strong 200-review proof at this price.",
+    "flag_over_cap": true
+  },
+  {
+    "slug": "stay-04-wayward-inn",
+    "name": "Wayward Inn Entire Place — Ghiyagi",
+    "area": "Ghiyagi",
+    "kind": "Airbnb",
+    "type": "Airbnb Cottage (entire place)",
+    "location": "Ghiyagi (between Jibhi and Shoja); ~4 km from Jibhi market; ~3 km from Shoja cafes (Jaani's/Rustic)",
+    "price_base": 1900,
+    "price_allin": 2240,
+    "total4": 8970,
+    "total5": 11210,
+    "rating": "4.78 (136 reviews) — Airbnb",
+    "cleanliness": "4.7+; “charming stone+wood, well-kept”; large review base = reliable",
+    "view": "Stone-wood cottage in greenery; private balcony/patio; valley + orchard views",
+    "amenities": "Kitchen, WiFi, garden, parking, pet-friendly belt",
+    "booking_primary": "https://www.airbnb.co.in/jibhi-india/stays (search “Wayward Inn Ghiyagi”)",
+    "booking_hub": {
+      "label": "Airbnb hub",
+      "url": "https://www.airbnb.co.in/jibhi-india/stays"
+    },
+    "photos": [
+      "assets/img/stays/stay-04-wayward-inn/stay-04-wayward-inn-01.jpg",
+      "assets/img/stays/stay-04-wayward-inn/stay-04-wayward-inn-02.jpg",
+      "assets/img/stays/stay-04-wayward-inn/stay-04-wayward-inn-03.jpg",
+      "assets/img/stays/stay-04-wayward-inn/stay-04-wayward-inn-04.jpg"
+    ],
+    "why": "Ghiyagi is the quiet sweet spot — neither Jibhi crowd nor Shoja wind. Entire-place privacy for a couple, balcony breakfasts, forest walks from the door, and both market clusters within short scooty reach.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-05-tandi-cottage",
+    "name": "Tandi Mountain Cottage with Jibhi Valley View — Tandi",
+    "area": "Tandi",
+    "kind": "Airbnb",
+    "type": "Airbnb Cottage",
+    "location": "Tandi (Sajwar side); ~6–7 km from Jibhi market; ~20 min drive to Jibhi cafes",
+    "price_base": 1800,
+    "price_allin": 2120,
+    "total4": 8500,
+    "total5": 10620,
+    "rating": "4.82 (34 reviews) — Airbnb",
+    "cleanliness": "Positive for condition/clean; rustic blue-window hut, well-kept",
+    "view": "Elevated hut among tall trees; Jibhi Valley panorama; private balcony/deck",
+    "amenities": "Kitchenette, WiFi, parking, heater on request",
+    "booking_primary": "https://www.airbnb.co.in/jibhi-india/stays (search “Tandi Mountain Cottage”)",
+    "booking_hub": {
+      "label": "Airbnb hub",
+      "url": "https://www.airbnb.co.in/jibhi-india/stays"
+    },
+    "photos": [
+      "assets/img/stays/stay-05-tandi-cottage/stay-05-tandi-cottage-01.jpg",
+      "assets/img/stays/stay-05-tandi-cottage/stay-05-tandi-cottage-02.jpg",
+      "assets/img/stays/stay-05-tandi-cottage/stay-05-tandi-cottage-03.jpg",
+      "assets/img/stays/stay-05-tandi-cottage/stay-05-tandi-cottage-04.jpg"
+    ],
+    "why": "Colder, quieter Tandi air with valley panorama from bed and zero market hum. Narrow-road filter keeps it calm; good base for Chehni + Jalori loops on a scooty day.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-06-mudhouse-peaks",
+    "name": "Mudhouse Peaks N Valley Stays — Chhet (Chehni road)",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Cottage (entire)",
+    "location": "Chhet village, Chehni road; ~3–4 km from Jibhi market; minutes from market/waterfall/Chehni trek; ~10 min to cafes",
+    "price_base": 2400,
+    "price_allin": 2830,
+    "total4": 11330,
+    "total5": 14160,
+    "rating": "5.0 (14 reviews) — Airbnb (Guest Favourite Top 10%, Superhost, Cleanliness 5.0, Location 5.0)",
+    "cleanliness": "5.0; “spotless mud finish, cozy bedding”",
+    "view": "Cliff-perched; sweeping valley views; private deck + private hot-tub option; bonfire/BBQ under stars",
+    "amenities": "Self check-in, kitchen, organic farm access, bonfire, parking",
+    "booking_primary": "https://www.airbnb.co.in/rooms/1412122997309117906",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.co.in/rooms/1412122997309117906"
+    },
+    "photos": [
+      "assets/img/stays/stay-06-mudhouse-peaks/stay-06-mudhouse-peaks-01.jpg",
+      "assets/img/stays/stay-06-mudhouse-peaks/stay-06-mudhouse-peaks-02.jpg",
+      "assets/img/stays/stay-06-mudhouse-peaks/stay-06-mudhouse-peaks-03.jpg",
+      "assets/img/stays/stay-06-mudhouse-peaks/stay-06-mudhouse-peaks-04.jpg"
+    ],
+    "why": "Most aesthetic “off-grid but close” pick — mud architecture, cliff privacy, hot-tub + stars, Chehni Kothi hike base. Thin review count (14) flagged; consider 2N splurge + 2N budget split. NOTE: all-in exceeds ₹2500 cap by ~₹330 — exceptional-exception candidate.",
+    "flag_over_cap": true
+  },
+  {
+    "slug": "stay-07-lost-escape",
+    "name": "The Lost Escape Riverside Cottage — Jibhi riverside orchard",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Farm-stay (private room)",
+    "location": "Riverside orchard offbeat downhill trail; ~1.5–2 km from Jibhi market (700 m jungle trail from road, porter help); ~15 min walk to cafes",
+    "price_base": 1700,
+    "price_allin": 2000,
+    "total4": 8030,
+    "total5": 10040,
+    "rating": "5.0 (19 reviews) — Airbnb (Superhost)",
+    "cleanliness": "High for riverside; “wooden interiors, clean bath, fresh meals”",
+    "view": "River + mountain view balcony; orchard + pine/cedar forest; birdsong all day",
+    "amenities": "In-house cafe dining, outdoor dining, 5G WiFi, garden sit-out",
+    "booking_primary": "https://www.airbnb.co.in/rooms/758357609524923692",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.co.in/rooms/758357609524923692"
+    },
+    "photos": [
+      "assets/img/stays/stay-07-lost-escape/stay-07-lost-escape-01.jpg",
+      "assets/img/stays/stay-07-lost-escape/stay-07-lost-escape-02.jpg",
+      "assets/img/stays/stay-07-lost-escape/stay-07-lost-escape-03.jpg",
+      "assets/img/stays/stay-07-lost-escape/stay-07-lost-escape-04.jpg"
+    ],
+    "why": "Trail access is a natural crowd filter — river steps away, forest immersion, no road honk. True quiet (water + trout + fireflies). Thin count (19) flagged but 5.0 Superhost; couple-perfect.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-08-om-homestay",
+    "name": "Om Homestay Cottage — Jibhi outskirts",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Cottage / Homestay",
+    "location": "Jibhi outskirts set back from road; ~0.8–1.2 km from market — walkable but peaceful; ~5–10 min walk to cafes",
+    "price_base": 1600,
+    "price_allin": 1890,
+    "total4": 7560,
+    "total5": 9440,
+    "rating": "5.0 (58 reviews) — Airbnb",
+    "cleanliness": "Consistently “calm, clean, tidy rooms, bonfire evenings”",
+    "view": "Peaceful mountain views; cottage balcony/terrace; trek-trail access",
+    "amenities": "Bonfire, parking, home food, WiFi",
+    "booking_primary": "https://www.airbnb.co.in/jibhi-india/stays (search “Om home stay Jibhi”)",
+    "booking_hub": {
+      "label": "Airbnb hub",
+      "url": "https://www.airbnb.co.in/jibhi-india/stays"
+    },
+    "photos": [
+      "assets/img/stays/stay-08-om-homestay/stay-08-om-homestay-01.jpg",
+      "assets/img/stays/stay-08-om-homestay/stay-08-om-homestay-02.jpg",
+      "assets/img/stays/stay-08-om-homestay/stay-08-om-homestay-03.jpg",
+      "assets/img/stays/stay-08-om-homestay/stay-08-om-homestay-04.jpg"
+    ],
+    "why": "Best “close-but-quiet” compromise — cafes by day, silence at night. 5.0 across 58 reviews is a safe couple bet at a budget-friendly price.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-09-serenity-wooden",
+    "name": "Serenity Wooden Cottage — Jibhi outskirts",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Cottage / Homestay",
+    "location": "Jibhi outskirts; ~1–2 km from market; ~10 min walk/scooty to cafe cluster",
+    "price_base": 1800,
+    "price_allin": 2120,
+    "total4": 8500,
+    "total5": 10620,
+    "rating": "4.91 (100 reviews) — Airbnb",
+    "cleanliness": "“Home away from home, peaceful + comforts of home”; cleanliness praised",
+    "view": "Wooden duplex among greenery; valley/mountain balcony",
+    "amenities": "Kitchen, WiFi, power backup, parking",
+    "booking_primary": "https://www.airbnb.co.in/jibhi-india/stays (search “Serenity Wooden cottage jibhi”)",
+    "booking_hub": {
+      "label": "Airbnb hub",
+      "url": "https://www.airbnb.co.in/jibhi-india/stays"
+    },
+    "photos": [
+      "assets/img/stays/stay-09-serenity-wooden/stay-09-serenity-wooden-01.jpg",
+      "assets/img/stays/stay-09-serenity-wooden/stay-09-serenity-wooden-02.jpg",
+      "assets/img/stays/stay-09-serenity-wooden/stay-09-serenity-wooden-03.jpg",
+      "assets/img/stays/stay-09-serenity-wooden/stay-09-serenity-wooden-04.jpg"
+    ],
+    "why": "100-review proof of quiet comfort; wood aesthetic, morning sun, calm nights. Strong 4–5N slow-stay pick rather than hopping.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-10-hillhouse-aframe",
+    "name": "Hillhouse Sisters A-Frame Farm Stay — Jibhi farm belt",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Farm-stay (entire A-frame)",
+    "location": "Jibhi outskirts farm belt; ~2–3 km from market; ~10 min scooty to cafes",
+    "price_base": 2000,
+    "price_allin": 2360,
+    "total4": 9440,
+    "total5": 11800,
+    "rating": "4.95 (20 reviews) — Airbnb (Guest Favourite, Cleanliness 5.0, Value 5.0, Superhost)",
+    "cleanliness": "5.0; “spotless A-frame, fresh farm air”",
+    "view": "Valley views; large glass windows; farm + greenery surround; deck for tea/stars",
+    "amenities": "WiFi 39 Mbps + workspace, firepit, pets allowed, parking",
+    "booking_primary": "https://www.airbnb.co.in/rooms/1583118387367694595 (search “Hillhouse Sisters Jibhi” if ID rotates)",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.co.in/rooms/1583118387367694595"
+    },
+    "photos": [
+      "assets/img/stays/stay-10-hillhouse-aframe/stay-10-hillhouse-aframe-01.jpg",
+      "assets/img/stays/stay-10-hillhouse-aframe/stay-10-hillhouse-aframe-02.jpg",
+      "assets/img/stays/stay-10-hillhouse-aframe/stay-10-hillhouse-aframe-03.jpg",
+      "assets/img/stays/stay-10-hillhouse-aframe/stay-10-hillhouse-aframe-04.jpg"
+    ],
+    "why": "Hippie-aesthetic A-frame with farm life, birdsong mornings, starry nights. Modern comfort + rustic charm, workation-friendly. Thin count (20) flagged but 5.0 clean/value.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-11-silence-pines",
+    "name": "Silence of Pines / Seri Homestay — Seri, Waterfall Road",
+    "area": "Jibhi",
+    "kind": "Homestay",
+    "type": "Homestay (family-run cottages)",
+    "location": "Seri village, Jibhi Waterfall Road; 200 m from Jibhi Waterfall; ~2 km from market; ~15 min walk to cafes",
+    "price_base": 1800,
+    "price_allin": 2020,
+    "total4": 8060,
+    "total5": 10080,
+    "rating": "~4.5 (Google, ~80 reviews) + Homestays-of-India listing; long-stay reviews praise hosts",
+    "cleanliness": "“Comfortable, home-cooked, clean attached baths”; 5 rooms only, personal care",
+    "view": "Pine-forest cottages; valley-view balcony; river walk nearby",
+    "amenities": "Parking, WiFi, hot water, bonfire, pet-friendly, library",
+    "booking_primary": "https://www.homestaysofindia.com/himachal-banjar-jibhi-silence-of-pines",
+    "booking_hub": {
+      "label": "Homestays of India",
+      "url": "https://www.homestaysofindia.com/himachal-banjar-jibhi-silence-of-pines"
+    },
+    "photos": [
+      "assets/img/stays/stay-11-silence-pines/stay-11-silence-pines-01.jpg",
+      "assets/img/stays/stay-11-silence-pines/stay-11-silence-pines-02.jpg",
+      "assets/img/stays/stay-11-silence-pines/stay-11-silence-pines-03.jpg",
+      "assets/img/stays/stay-11-silence-pines/stay-11-silence-pines-04.jpg"
+    ],
+    "why": "Walk-to-waterfall forest quiet with a host couple that goes the extra mile. Two small cottages = intimate, not hotel corridor. Ideal birding/reading/stargazing couple stay.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-12-moustache-shoja",
+    "name": "Moustache Shoja Deluxe Double with Balcony — Shoja",
+    "area": "Shoja",
+    "kind": "Hostel-private",
+    "type": "Hotel / Hostel (private room)",
+    "location": "Shoja, NH-305; ~7–8 km from Jibhi market (25 min drive); 3.4 km from Jalori Pass; Shoja cafes walkable",
+    "price_base": 1800,
+    "price_allin": 2020,
+    "total4": 8060,
+    "total5": 10080,
+    "rating": "Chain property; Booking ~8.5 (hostel+privates); dorms ~₹457 baseline",
+    "cleanliness": "Chain housekeeping; private bath + shower, linen included — more consistent than solo homestays",
+    "view": "Deluxe = private balcony mountain views; Budget double = shared balcony (book Deluxe)",
+    "amenities": "Garden, shared lounge, bonfire/movie nights, restaurant, parking, WiFi, heating, electric kettle",
+    "booking_primary": "https://www.booking.com/hostels/city/in/jibhi.html (search “Moustache Shoja”)",
+    "booking_hub": {
+      "label": "Booking hub",
+      "url": "https://www.booking.com/hostels/city/in/jibhi.html"
+    },
+    "photos": [
+      "assets/img/stays/stay-12-moustache-shoja/stay-12-moustache-shoja-01.jpg",
+      "assets/img/stays/stay-12-moustache-shoja/stay-12-moustache-shoja-02.jpg",
+      "assets/img/stays/stay-12-moustache-shoja/stay-12-moustache-shoja-03.jpg",
+      "assets/img/stays/stay-12-moustache-shoja/stay-12-moustache-shoja-04.jpg"
+    ],
+    "why": "Hippie-social by day, private-room quiet by night — cedar + valley backdrop, Jalori sunrise easy. Best toggle for community + couple retreat, with chain-level cleanliness reliability.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-13-zostel-shoja",
+    "name": "Zostel Shoja Private Room — Shoja",
+    "area": "Shoja",
+    "kind": "Hostel-private",
+    "type": "Hostel (private room)",
+    "location": "Shoja, NH-305; ~7 km from Jibhi market; ~3 km from waterfall by road; Shoja cafes walkable",
+    "price_base": 1900,
+    "price_allin": 2130,
+    "total4": 8510,
+    "total5": 10640,
+    "rating": "Chain; backpacker ratings high (Shoja unit ~8.7 Booking/hostelworld); dorms ~₹500–700",
+    "cleanliness": "Chain SOP; housekeeping, 24-hr security, adults-only calm zones",
+    "view": "Terrace + garden furniture; mountain-view rooms; sitting area in select privates — request valley-facing private",
+    "amenities": "Restaurant, outdoor bar, garden, bonfire, WiFi, parking",
+    "booking_primary": "https://www.booking.com/hostels/city/in/jibhi.html (search “Zostel Shoja”)",
+    "booking_hub": {
+      "label": "Booking hub",
+      "url": "https://www.booking.com/hostels/city/in/jibhi.html"
+    },
+    "photos": [
+      "assets/img/stays/stay-13-zostel-shoja/stay-13-zostel-shoja-01.jpg",
+      "assets/img/stays/stay-13-zostel-shoja/stay-13-zostel-shoja-02.jpg",
+      "assets/img/stays/stay-13-zostel-shoja/stay-13-zostel-shoja-03.jpg",
+      "assets/img/stays/stay-13-zostel-shoja/stay-13-zostel-shoja-04.jpg"
+    ],
+    "why": "Shoja pine + Jalori views with social-cafe energy by day and private retreat by night. Reliable Oct backup if homestays fill; chain consistency for a young couple.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-14-tirthan-crest",
+    "name": "Tirthan Crest Homestay — Sidhwan, Banjar edge",
+    "area": "Tirthan",
+    "kind": "Homestay",
+    "type": "Homestay / B&B",
+    "location": "Sidhwan, Banjar edge (Tirthan side); ~9–10 km from Jibhi market; 15-min walk to Banjar centre; Tirthan River 4.4 km",
+    "price_base": 1400,
+    "price_allin": 1570,
+    "total4": 6270,
+    "total5": 7840,
+    "rating": "B&B listing; 9 rooms; breakfast-included reviews (~8.6 aggregator)",
+    "cleanliness": "B&B standards; cupboard rooms, 24-hr security",
+    "view": "Balcony rooms + garden views; ask upper balcony room",
+    "amenities": "Breakfast included, garden, parking, WiFi, security",
+    "booking_primary": "https://www.homestays.co.in/gushaini-india (search “Tirthan Crest”)",
+    "booking_hub": {
+      "label": "Homestays hub",
+      "url": "https://www.homestays.co.in/gushaini-india"
+    },
+    "photos": [
+      "assets/img/stays/stay-14-tirthan-crest/stay-14-tirthan-crest-01.jpg",
+      "assets/img/stays/stay-14-tirthan-crest/stay-14-tirthan-crest-02.jpg",
+      "assets/img/stays/stay-14-tirthan-crest/stay-14-tirthan-crest-03.jpg",
+      "assets/img/stays/stay-14-tirthan-crest/stay-14-tirthan-crest-04.jpg"
+    ],
+    "why": "Banjar-edge calm with riverside + GHNP access without Jibhi weekend crowd. Cheapest B&B balcony base — good for a Jibhi+Tirthan split or budget buffer.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-15-riverside-serenity",
+    "name": "Riverside Serenity Cottage — Gushaini, Tirthan Valley",
+    "area": "Tirthan",
+    "kind": "Airbnb",
+    "type": "Airbnb Cabin / Room",
+    "location": "Gushaini, Tirthan Valley; ~19–20 km from Jibhi market (50 min drive) — separate valley base; Gushaini cafes walkable",
+    "price_base": 1800,
+    "price_allin": 2120,
+    "total4": 8500,
+    "total5": 10620,
+    "rating": "4.89 (47 reviews) — Airbnb (Superhost, Value 4.8)",
+    "cleanliness": "“Simple, comfortable, nature-focused”; 6 cleanliness mentions; river + hospitality praised",
+    "view": "Private balcony river + mountain views; river steps away; room-window river view; garden sit-out",
+    "amenities": "Fast WiFi 126 Mbps, free parking, meals on request; Chhoie Waterfall 1.5 km hike",
+    "booking_primary": "https://www.airbnb.co.in/rooms/1279706273527651930",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.co.in/rooms/1279706273527651930"
+    },
+    "photos": [
+      "assets/img/stays/stay-15-riverside-serenity/stay-15-riverside-serenity-01.jpg",
+      "assets/img/stays/stay-15-riverside-serenity/stay-15-riverside-serenity-02.jpg",
+      "assets/img/stays/stay-15-riverside-serenity/stay-15-riverside-serenity-03.jpg",
+      "assets/img/stays/stay-15-riverside-serenity/stay-15-riverside-serenity-04.jpg"
+    ],
+    "why": "Wake to river sound + mountain air, not road. Quiet riverside neighbourhood with waterfall hike from the door. Best Tirthan analogue to the Jibhi balcony brief — ideal 2N Jibhi + 2N Tirthan split.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-16-cedar-nest-sainj",
+    "name": "Himalayan Cedar Nest — Sainj (extension anchor)",
+    "area": "Sainj",
+    "kind": "Homestay",
+    "type": "Cottage / Homestay",
+    "location": "Sainj valley (near Jibhi circuit); ~30–35 km from Jibhi market — extension/day-trip base, not daily commute; Sainj cafes local",
+    "price_base": 1750,
+    "price_allin": 1960,
+    "total4": 7840,
+    "total5": 9800,
+    "rating": "9.5 (44 reviews) — Booking.com cottages",
+    "cleanliness": "44-review consistency = rare reliable housekeeping for Sainj at this price",
+    "view": "Cottage format; balcony + river/garden views (Sainj riverside belt); forest quiet",
+    "amenities": "Garden, kitchen option, parking, WiFi, bonfire on request",
+    "booking_primary": "https://www.booking.com/cottages/city/in/sainj.html (search “Himalayan Cedar Nest”)",
+    "booking_hub": {
+      "label": "Booking hub",
+      "url": "https://www.booking.com/cottages/city/in/sainj.html"
+    },
+    "photos": [
+      "assets/img/stays/stay-16-cedar-nest-sainj/stay-16-cedar-nest-sainj-01.jpg",
+      "assets/img/stays/stay-16-cedar-nest-sainj/stay-16-cedar-nest-sainj-02.jpg",
+      "assets/img/stays/stay-16-cedar-nest-sainj/stay-16-cedar-nest-sainj-03.jpg",
+      "assets/img/stays/stay-16-cedar-nest-sainj/stay-16-cedar-nest-sainj-04.jpg"
+    ],
+    "why": "Highest-proof Sainj budget pick (44 reviews at 9.5). Cottage privacy + cedar forest + river sound. Extension anchor: justifies +1N (Oct 8–9) via Shangarh meadows loop, escaping Jibhi weekend surge.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-17-mountain-nest",
+    "name": "Mountain Nest Stay — Hirab, Sajwar Road",
+    "area": "Jibhi",
+    "kind": "Homestay",
+    "type": "Homestay cottage",
+    "location": "Village Hirab, Hirab–Sajwar Road, Shoja/Jibhi; ~3–4 km above market in untouched belt; ~10 min drive to cafes",
+    "price_base": 2400,
+    "price_allin": 2690,
+    "total4": 10760,
+    "total5": 13450,
+    "rating": "~4.7 (Google/direct, growing base)",
+    "cleanliness": "Premium mattresses/bedding, 24/7 hot water noted; direct-booking housekeeping",
+    "view": "Private balcony with panoramic valley views; upper rooms face sunrise ridge",
+    "amenities": "Room heaters (winter), electric kettle + tea, WiFi, ample storage, bonfire, parking",
+    "booking_primary": "https://mountainneststay.com/",
+    "booking_hub": {
+      "label": "Direct",
+      "url": "https://mountainneststay.com/"
+    },
+    "photos": [
+      "assets/img/stays/stay-17-mountain-nest/stay-17-mountain-nest-01.jpg",
+      "assets/img/stays/stay-17-mountain-nest/stay-17-mountain-nest-02.jpg",
+      "assets/img/stays/stay-17-mountain-nest/stay-17-mountain-nest-03.jpg",
+      "assets/img/stays/stay-17-mountain-nest/stay-17-mountain-nest-04.jpg"
+    ],
+    "why": "Handcrafted-cottage romantic escape above the clouds with direct valley views and no market noise. At-cap premium pick for couples wanting boutique comfort + phones-lose-signal quiet. NOTE: all-in ~₹190 over cap — flagged edge.",
+    "flag_over_cap": true
+  },
+  {
+    "slug": "stay-18-tirthan-riverview",
+    "name": "Tirthan Riverview Homestay — Ropajani, Gushaini",
+    "area": "Tirthan",
+    "kind": "Homestay",
+    "type": "Homestay",
+    "location": "Village Ropajani, Tirthan Valley (GHNP buffer gateway); ~1 hr drive from Aut; ~20 km from Jibhi; riverside trail cafes local",
+    "price_base": 1500,
+    "price_allin": 1680,
+    "total4": 6720,
+    "total5": 8400,
+    "rating": "Direct listing; buffer-zone homestay with repeat-guest base (aggregator ~8.8)",
+    "cleanliness": "Wood-stone-mud house; 4 well-furnished doubles, attached baths, hot water; linen noted",
+    "view": "All bedrooms open to spacious shared + room balconies with Tirthan River + pine forest view",
+    "amenities": "Internet, laundry, parking, taxi/trek/camp/fishing-gear hire, MAP meals available",
+    "booking_primary": "https://tirthanriverviewhomestay.bookmystay.io/",
+    "booking_hub": {
+      "label": "Direct",
+      "url": "https://tirthanriverviewhomestay.bookmystay.io/"
+    },
+    "photos": [
+      "assets/img/stays/stay-18-tirthan-riverview/stay-18-tirthan-riverview-01.jpg",
+      "assets/img/stays/stay-18-tirthan-riverview/stay-18-tirthan-riverview-02.jpg",
+      "assets/img/stays/stay-18-tirthan-riverview/stay-18-tirthan-riverview-03.jpg",
+      "assets/img/stays/stay-18-tirthan-riverview/stay-18-tirthan-riverview-04.jpg"
+    ],
+    "why": "GHNP-buffer solitude — 10-family village, river at the door, traditional-meets-modern house. Perfect solitude-seeker couple base with angling/trek support; cheapest river-view balcony on the list.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-19-jaabal-riverside",
+    "name": "Jaabal Riverside Homestay — Jawal, Badiropa, Tirthan Valley",
+    "area": "Tirthan",
+    "kind": "Homestay",
+    "type": "Homestay",
+    "location": "Village Jawal, Badiropa, Tirthan Valley; ~20 km from Jibhi via Banjar; riverside dining/fire area",
+    "price_base": 1800,
+    "price_allin": 2020,
+    "total4": 8060,
+    "total5": 10080,
+    "rating": "Direct listing; guest notes “clean, spacious, river-view” (aggregator ~8.7)",
+    "cleanliness": "Super Deluxe noted clean/spacious; soft bedding; garden + dining upkeep",
+    "view": "Super Deluxe + Duplex rooms = balcony + Tirthan River view; ground Deluxe = garden sit-out (book upper balcony room)",
+    "amenities": "Dining area, fire area, garden, parking; min 2-day booking in peak",
+    "booking_primary": "https://tirthanjaabalhomestay.com/",
+    "booking_hub": {
+      "label": "Direct",
+      "url": "https://tirthanjaabalhomestay.com/"
+    },
+    "photos": [
+      "assets/img/stays/stay-19-jaabal-riverside/stay-19-jaabal-riverside-01.jpg",
+      "assets/img/stays/stay-19-jaabal-riverside/stay-19-jaabal-riverside-02.jpg",
+      "assets/img/stays/stay-19-jaabal-riverside/stay-19-jaabal-riverside-03.jpg",
+      "assets/img/stays/stay-19-jaabal-riverside/stay-19-jaabal-riverside-04.jpg"
+    ],
+    "why": "Riverside retreat where the river is audible from bed; balcony + garden + fire area for couple evenings. Must book Super Deluxe/Duplex for the balcony — then it beats town stays on quiet + view per rupee.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-20-mizuki-retreat",
+    "name": "Mizuki Retreat + Cafe — Pekhri road above Gushaini",
+    "area": "Tirthan",
+    "kind": "Homestay",
+    "type": "Homestay (5 rooms) + Cafe",
+    "location": "Pekhri road above Gushaini, Tirthan Valley; ~21 km from Jibhi; in-house cafe; GHNP next door",
+    "price_base": 2000,
+    "price_allin": 2240,
+    "total4": 8970,
+    "total5": 11210,
+    "rating": "~4.7 (Google/direct, 5-room base)",
+    "cleanliness": "Simple, warm rooms; blankets + toiletries noted; cafe kitchen standards",
+    "view": "Every room mountain-facing; private balcony over valley; sun terrace + outdoor fireplace",
+    "amenities": "In-house cafe (Himachali plates, trout when available, coffee), video-call-grade WiFi, shared lounge, bonfire, parking",
+    "booking_primary": "https://mizukiretreat.com/",
+    "booking_hub": {
+      "label": "Direct",
+      "url": "https://mizukiretreat.com/"
+    },
+    "photos": [
+      "assets/img/stays/stay-20-mizuki-retreat/stay-20-mizuki-retreat-01.jpg",
+      "assets/img/stays/stay-20-mizuki-retreat/stay-20-mizuki-retreat-02.jpg",
+      "assets/img/stays/stay-20-mizuki-retreat/stay-20-mizuki-retreat-03.jpg",
+      "assets/img/stays/stay-20-mizuki-retreat/stay-20-mizuki-retreat-04.jpg"
+    ],
+    "why": "Five-room quiet with the cafe one floor away — mountain views from every room, trout below, national park next door. Best “stay where you eat” Tirthan pick for cafe-focused couples.",
+    "flag_over_cap": false
+  },
+  {
+    "slug": "stay-21-forest-lens",
+    "name": "The Forest Lens Treehouse (HomeTales) — Jibhi forest",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Treehouse (Superhost, 6 yrs)",
+    "location": "Jibhi forest belt; 5-min trek from parking (host picks luggage); ~2–3 km from market; ~10 min to cafes",
+    "price_base": 2300,
+    "price_allin": 2570,
+    "total4": 10280,
+    "total5": 12850,
+    "rating": "Superhost 6 yrs (Airbnb; panoramic-view tags; exact count varies by season — verify live)",
+    "cleanliness": "Professional hospitality team; power backup + food-service upkeep noted",
+    "view": "Panoramic mountain + valley deck; scenic forest sit-out; bonfire area",
+    "amenities": "WiFi, power backup, food service, bonfire area, parking facility (meals/heaters/bonfire extra)",
+    "booking_primary": "https://www.airbnb.com.au/rooms/1438153001249315575 (search “Forest Lens Treehouse Jibhi”)",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.com.au/rooms/1438153001249315575"
+    },
+    "photos": [
+      "assets/img/stays/stay-21-forest-lens/stay-21-forest-lens-01.jpg",
+      "assets/img/stays/stay-21-forest-lens/stay-21-forest-lens-02.jpg",
+      "assets/img/stays/stay-21-forest-lens/stay-21-forest-lens-03.jpg",
+      "assets/img/stays/stay-21-forest-lens/stay-21-forest-lens-04.jpg"
+    ],
+    "why": "Purpose-built forest escape run by ex-hospitality professionals — panoramic views, 5-min trek crowd filter, reliable service layer rare in treehouses. NOTE: all-in ~₹70 over cap — flagged edge; verify exact fee at booking.",
+    "flag_over_cap": true
+  },
+  {
+    "slug": "stay-22-rocky-retreat",
+    "name": "Rocky’s Retreat A-Frame Orchard — Jibhi (6 km out)",
+    "area": "Jibhi",
+    "kind": "Airbnb",
+    "type": "Airbnb Farm-stay (A-frame cabin)",
+    "location": "Apple-orchard belt ~6 km from Jibhi market (Jalori 18 km / waterfall 6 km / Chhoie 4 km); 5-min walk from road; night service till 10 pm, no loud music",
+    "price_base": 2100,
+    "price_allin": 2480,
+    "total4": 9920,
+    "total5": 12400,
+    "rating": "Superhost (Airbnb; A-frame orchard listing; verify live count)",
+    "cleanliness": "Pinewood upkeep noted; in-house food service; all-weather AC",
+    "view": "Spacious balcony; amazing mountain view; pinewood architecture; orchard + lawn access",
+    "amenities": "WiFi, bonfire area, in-house food, parking; village rules enforced (quiet)",
+    "booking_primary": "https://www.airbnb.com.au/rooms/1146687534659285703 (search “Rocky’s Retreat Jibhi”)",
+    "booking_hub": {
+      "label": "Airbnb",
+      "url": "https://www.airbnb.com.au/rooms/1146687534659285703"
+    },
+    "photos": [
+      "assets/img/stays/stay-22-rocky-retreat/stay-22-rocky-retreat-01.jpg",
+      "assets/img/stays/stay-22-rocky-retreat/stay-22-rocky-retreat-02.jpg",
+      "assets/img/stays/stay-22-rocky-retreat/stay-22-rocky-retreat-03.jpg",
+      "assets/img/stays/stay-22-rocky-retreat/stay-22-rocky-retreat-04.jpg"
+    ],
+    "why": "Dreamy orchard A-frame — rustic pinewood outside, modern comfort inside, enforced quiet. 6 km buffer from market + Jalori/Chhoie equidistance makes it a strong scooty-day hub for couples.",
+    "flag_over_cap": false
+  }
+]
