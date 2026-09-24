@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Save this list — Jibhi–Shoja Google Maps companion · Oct 4–8</title>
+<meta name="description" content="45 savable Google Maps pins — quiet stays, hotels, places and cafes for a Jibhi–Shoja couple trip, Oct 4–8. Download CSV/KML and import to Google My Maps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,650&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/site.css">
+<style>
+/* maps.html — quiet-valley companion page (no photos by policy) */
+.m-hero{position:relative;margin-top:var(--nav-h);padding:clamp(3.2rem,8vw,5.5rem) var(--pad) clamp(2.8rem,7vw,4.5rem);background:var(--pine-950);color:#eef2ea;text-align:center}
+.m-hero::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--grad);opacity:.85}
+.m-hero__eyebrow{margin:0 0 .9rem;font-size:.68rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--amber)}
+.m-hero__title{margin:0 auto;font-family:var(--f-serif);font-weight:500;font-size:clamp(2rem,6.5vw,3.4rem);line-height:1.12;max-width:20ch}
+.m-hero__sub{margin:1rem auto 0;max-width:52ch;color:#c5cabe;font-size:.95rem}
+.m-hero__actions{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:1.8rem}
+.m-sec{padding:var(--sec-y) var(--pad)}
+.m-sec--soft{background:var(--soft)}
+.m-sec--pine{background:var(--pine-900);color:#eef2ea}
+.m-wrap{max-width:1180px;margin:0 auto}
+.m-label{margin:0 0 .7rem;font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--copper-dark)}
+.m-sec--pine .m-label{color:var(--amber)}
+.m-h2{margin:0 0 .6rem;font-family:var(--f-serif);font-weight:500;font-size:clamp(1.6rem,4.5vw,2.4rem);line-height:1.18;color:var(--pine-900)}
+.m-sec--pine .m-h2{color:var(--white)}
+.m-lede{margin:0 0 2rem;max-width:62ch;color:var(--ink-soft)}
+.m-sec--pine .m-lede{color:#c5cabe}
+/* Buttons */
+.mbtn{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:46px;padding:.7rem 1.35rem;border-radius:999px;border:1px solid transparent;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s,color .2s}
+.mbtn--solid{background:var(--pine-800);color:var(--white);box-shadow:var(--shadow-soft)}
+.mbtn--solid:hover{background:var(--pine-700);transform:translateY(-1px)}
+.mbtn--copper{background:var(--copper);color:var(--white);box-shadow:var(--shadow-soft)}
+.mbtn--copper:hover{background:var(--copper-dark);transform:translateY(-1px)}
+.mbtn--line{background:transparent;border-color:var(--stone-300);color:var(--pine-800)}
+.mbtn--line:hover{border-color:var(--pine-700);background:var(--white)}
+.mbtn--ghost{background:transparent;border-color:rgba(255,255,255,.4);color:#eef2ea}
+.mbtn--ghost:hover{border-color:var(--amber);color:var(--amber)}
+/* Save steps */
+.steps{display:grid;gap:1.1rem;grid-template-columns:1fr;margin:0 0 1.8rem;padding:0;list-style:none;counter-reset:step}
+.step{position:relative;background:var(--white);border:1px solid var(--line);border-radius:20px;padding:1.6rem 1.4rem 1.4rem;box-shadow:var(--shadow-soft);counter-increment:step}
+.step::before{content:counter(step,decimal-leading-zero);display:inline-grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--grad);color:var(--white);font-family:var(--f-serif);font-weight:650;font-size:.95rem;margin-bottom:1rem}
+.step h3{margin:0 0 .5rem;font-family:var(--f-serif);font-weight:500;font-size:1.25rem;color:var(--pine-900)}
+.step p{margin:0 0 1rem;color:var(--ink-soft);font-size:.92rem}
+.step .mbtn{min-height:42px;font-size:.72rem}
+.step kbd{display:inline-block;padding:.1rem .45rem;border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;background:var(--stone-100);font-family:var(--f-sans);font-size:.8em;font-weight:600;color:var(--pine-800)}
+.downloads{display:flex;gap:.9rem;flex-wrap:wrap;align-items:center}
+.downloads__note{flex-basis:100%;margin:.4rem 0 0;font-size:.8rem;color:var(--t-dim)}
+/* Map */
+.map-frame{position:relative;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);background:var(--stone-200)}
+.map-frame iframe{display:block;width:100%;height:clamp(320px,55vh,520px);border:0}
+.map-chips{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.2rem}
+.map-chips__label{flex-basis:100%;margin:0 0 .2rem;font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--t-dim)}
+.chip{display:inline-flex;align-items:center;min-height:38px;padding:.45rem 1rem;border:1px solid var(--line);border-radius:999px;background:var(--white);font-size:.8rem;font-weight:600;color:var(--pine-800);transition:.2s}
+.chip:hover{border-color:var(--pine-700);box-shadow:var(--shadow-soft)}
+/* Filters */
+.filters{display:grid;gap:1.1rem;margin:0 0 1.4rem;padding:1.2rem 1.2rem 1.3rem;background:var(--white);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow-soft)}
+.filter-group{display:flex;gap:.55rem;flex-wrap:wrap;align-items:center}
+.filter-group__label{flex-basis:100%;margin:0 0 .15rem;font-size:.66rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--t-dim)}
+.fbtn{min-height:40px;padding:.5rem 1.05rem;border-radius:999px;border:1px solid var(--line);background:var(--stone-100);font-size:.78rem;font-weight:600;color:var(--ink-soft);cursor:pointer;transition:.2s}
+.fbtn:hover{border-color:var(--pine-500)}
+.fbtn.is-active{background:var(--pine-800);border-color:var(--pine-800);color:var(--white)}
+.list-count{margin:0 0 1.2rem;font-size:.82rem;color:var(--t-dim);letter-spacing:.04em}
+/* Cards */
+.cards{display:grid;gap:1.15rem;grid-template-columns:1fr}
+.card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow-soft);transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card__photo{display:grid;place-items:center;gap:.3rem;min-height:118px;padding:1rem;background:var(--stone-200);border-bottom:1px dashed var(--stone-300);color:var(--stone-500);text-align:center}
+.card__photo-icon{font-family:var(--f-serif);font-size:1.4rem;line-height:1}
+.card__photo-text{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.card__body{display:flex;flex-direction:column;flex:1;padding:1.15rem 1.15rem 1.25rem}
+.card__tags{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:.7rem}
+.tag{display:inline-flex;align-items:center;padding:.24rem .7rem;border-radius:999px;font-size:.64rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.tag--layer{background:var(--stone-200);color:var(--pine-800)}
+.tag--under2500{background:#e3ecdf;color:var(--pine-800)}
+.tag--stretch{background:#f6ead3;color:var(--copper-dark)}
+.tag--confirm{background:#f3ddd0;color:var(--copper-dark)}
+.card__name{margin:0 0 .3rem;font-family:var(--f-serif);font-weight:500;font-size:1.28rem;line-height:1.25;color:var(--pine-900)}
+.card__area{margin:0 0 .55rem;font-size:.76rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--copper-dark)}
+.card__facts{display:flex;gap:.5rem 1.1rem;flex-wrap:wrap;margin:0 0 .7rem;font-size:.84rem;color:var(--ink-soft)}
+.card__facts strong{color:var(--pine-800);font-weight:700}
+.card__why{margin:0 0 1.05rem;font-size:.9rem;color:var(--ink-soft)}
+.card__hint{margin:-.45rem 0 .9rem;font-size:.76rem;color:var(--t-dim);font-style:italic}
+.card__actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:auto}
+.card__actions .mbtn{min-height:42px;padding:.55rem 1.05rem;font-size:.7rem;flex:1 1 auto}
+.cards__empty{grid-column:1/-1;padding:2.4rem 1.4rem;text-align:center;background:var(--white);border:1px dashed var(--stone-300);border-radius:18px;color:var(--t-dim)}
+/* Quarantine */
+.q-grid{display:grid;gap:1rem;grid-template-columns:1fr;margin:0;padding:0;list-style:none}
+.q-card{background:rgba(255,253,248,.06);border:1px solid rgba(255,255,255,.16);border-left:3px solid var(--amber);border-radius:16px;padding:1.15rem 1.2rem}
+.q-card h3{margin:0 0 .25rem;font-family:var(--f-serif);font-weight:500;font-size:1.15rem;color:var(--white)}
+.q-card__zone{margin:0 0 .55rem;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}
+.q-card__reason{margin:0;font-size:.88rem;color:#c5cabe}
+/* Disclaimer + footer */
+.disclaimer{max-width:78ch;margin:0 auto;padding:1.4rem 1.5rem;background:var(--white);border:1px dashed var(--stone-300);border-radius:16px;font-size:.86rem;color:var(--ink-soft)}
+.disclaimer strong{color:var(--pine-800)}
+.m-footer{padding:2.6rem var(--pad) 3rem;background:var(--pine-950);text-align:center;color:#93a096;font-size:.8rem}
+.m-footer a{color:#c5cabe;font-weight:600}
+.m-footer a:hover{color:var(--amber)}
+.m-footer p{margin:.35rem auto;max-width:60ch}
+.m-footer__rule{width:56px;height:2px;background:var(--grad);margin:0 auto 1.2rem}
+/* Loading / error */
+.m-status{padding:2.6rem 1.4rem;text-align:center;color:var(--t-dim);font-size:.85rem;letter-spacing:.06em}
+.m-status--error{color:var(--copper-dark)}
+@media(min-width:640px){.steps{grid-template-columns:repeat(3,1fr)}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.q-grid{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr;align-items:start}.downloads__note{flex-basis:auto}}
+@media(min-width:1024px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.q-grid{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:reduce){.card,.mbtn,.fbtn,.chip{transition:none}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#list">Skip to the list</a>
+<header class="nav" id="nav">
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-controls="menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <a href="./index.html" class="nav__logo" aria-label="Back to the Jibhi Shoja trip site"><span class="nav__logo-mark">JS</span><span class="nav__logo-text">Jibhi–Shoja · Maps</span></a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#save">Save this list</a><a href="#map">Area map</a><a href="#list">The list</a><a href="#quarantine">Needs your call</a><a href="./index.html">Trip site</a>
+  </nav>
+  <div class="nav__right"><a href="#save" class="nav__cta">Save<br><span>List</span></a></div>
+</header>
+<div class="menu" id="menu" aria-hidden="true">
+  <button class="menu__close" id="menuClose" aria-label="Close">&times;</button>
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="#save" class="menu__link">Save this list</a><a href="#map" class="menu__link">Area map</a><a href="#list" class="menu__link">The list</a><a href="#quarantine" class="menu__link">Needs your call</a><a href="./index.html" class="menu__link">Trip site</a>
+  </nav>
+  <div class="menu__footer">
+    <p class="menu__phone">Oct 4–8 · + optional Oct 9</p><p>Couple trip · 45-map-pin list</p>
+    <div class="menu__cta"><a href="./data/maps.csv" class="mbtn mbtn--solid" download style="text-decoration:none">Download CSV</a><a href="#list" class="mbtn mbtn--line" style="text-decoration:none">Browse pins</a></div>
+  </div>
+</div>
+<main id="top">
+  <section class="m-hero" aria-label="Introduction">
+    <p class="m-hero__eyebrow">Google Maps companion</p>
+    <h1 class="m-hero__title">Jibhi–Shoja couple trip — savable Google Maps list</h1>
+    <p class="m-hero__sub">Oct 4–8 (+ optional Oct 9) · 2 people · quiet + view filter · 45 researched pins across stays, hotels, places and cafes.</p>
+    <div class="m-hero__actions">
+      <a href="#save" class="mbtn mbtn--copper">Save this list</a>
+      <a href="#list" class="mbtn mbtn--ghost">Browse the 45 pins</a>
+    </div>
+  </section>
+
+  <section class="m-sec" id="save" aria-labelledby="save-h">
+    <div class="m-wrap">
+      <p class="m-label">Save this list</p>
+      <h2 class="m-h2" id="save-h">Three steps to carry all 45 pins in Google Maps</h2>
+      <p class="m-lede">The whole shortlist ships as two files in this project. Import once and the list lives in your own Google account — usable offline in the mountains.</p>
+      <ol class="steps">
+        <li class="step">
+          <h3>Download the CSV</h3>
+          <p>Grab <strong>maps.csv</strong> — all 45 pins with name, area, tier, price, rating and notes, formatted for import.</p>
+          <a class="mbtn mbtn--solid" href="./data/maps.csv" download>Download CSV</a>
+        </li>
+        <li class="step">
+          <h3>Import to My Maps</h3>
+          <p>On a laptop open <strong>google.com/mymaps</strong>, then <kbd>My Maps</kbd> → <kbd>Create a new map</kbd> → <kbd>Import</kbd> and upload the CSV (or KML). Choose the name/location columns when prompted.</p>
+          <a class="mbtn mbtn--line" href="https://www.google.com/mymaps" target="_blank" rel="noopener">Open Google My Maps</a>
+        </li>
+        <li class="step">
+          <h3>Open in Google Maps</h3>
+          <p>On your phone, open the <strong>Google Maps app</strong> → <kbd>Saved</kbd> → <kbd>Maps</kbd>. Your imported Jibhi–Shoja map appears with every pin, ready for Oct 4–8.</p>
+          <a class="mbtn mbtn--line" href="https://www.google.com/maps?q=Jibhi,+Himachal+Pradesh" target="_blank" rel="noopener">Open Google Maps</a>
+        </li>
+      </ol>
+      <div class="downloads">
+        <a class="mbtn mbtn--solid" href="./data/maps.csv" download>Download CSV</a>
+        <a class="mbtn mbtn--copper" href="./data/maps.kml" download>Download KML</a>
+        <p class="downloads__note">Prefer KML? It imports the same way in My Maps and keeps the layer structure (stays / hotels / places / cafes).</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-sec m-sec--soft" id="map" aria-labelledby="map-h">
+    <div class="m-wrap">
+      <p class="m-label">Orient yourself</p>
+      <h2 class="m-h2" id="map-h">The valley at a glance</h2>
+      <p class="m-lede">One embedded area map centred on Jibhi — no API key, no fake pins. The 45 real pins come from your imported My Maps list (above) or the per-card buttons below.</p>
+      <div class="map-frame">
+        <iframe title="Google Map of Jibhi, Himachal Pradesh" src="https://www.google.com/maps?q=Jibhi,Himachal+Pradesh&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+      <div class="map-chips" id="centre-chips" aria-label="Jump to an area on Google Maps">
+        <p class="map-chips__label">Area centres — open in Google Maps</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-sec" id="list" aria-labelledby="list-h">
+    <div class="m-wrap">
+      <p class="m-label">The shortlist</p>
+      <h2 class="m-h2" id="list-h">45 pins, filterable by layer and budget tier</h2>
+      <p class="m-lede" id="cap-note">Loading the price-cap note…</p>
+      <div class="filters" role="group" aria-label="Filter the list">
+        <div class="filter-group" id="layer-filters">
+          <p class="filter-group__label">Layer</p>
+          <button type="button" class="fbtn is-active" data-layer="all">All</button>
+          <button type="button" class="fbtn" data-layer="stays">Stays</button>
+          <button type="button" class="fbtn" data-layer="hotels">Hotels</button>
+          <button type="button" class="fbtn" data-layer="places">Places</button>
+          <button type="button" class="fbtn" data-layer="cafes">Cafes</button>
+        </div>
+        <div class="filter-group" id="tier-filters">
+          <p class="filter-group__label">Tier (stays &amp; hotels only)</p>
+          <button type="button" class="fbtn is-active" data-tier="all">All tiers</button>
+          <button type="button" class="fbtn" data-tier="under2500">Under ₹2,500</button>
+          <button type="button" class="fbtn" data-tier="stretch">Stretch</button>
+          <button type="button" class="fbtn" data-tier="confirm">Confirm price</button>
+        </div>
+      </div>
+      <p class="list-count" id="list-count" role="status"></p>
+      <div class="cards" id="cards">
+        <div class="m-status" role="status">Loading the researched pins…</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-sec m-sec--pine" id="quarantine" aria-labelledby="quarantine-h">
+    <div class="m-wrap">
+      <p class="m-label">Quarantine</p>
+      <h2 class="m-h2" id="quarantine-h">Six that need your call before they make the map</h2>
+      <p class="m-lede">Loved in research but held back — over budget or under-verified. None of these are in the CSV/KML until you say yes.</p>
+      <ul class="q-grid" id="q-grid">
+        <li class="m-status" role="status">Loading…</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="m-sec m-sec--soft" aria-labelledby="disclaimer-h">
+    <div class="m-wrap">
+      <p class="m-label">Fine print</p>
+      <h2 class="m-h2" id="disclaimer-h">Disclaimer</h2>
+      <p class="disclaimer" id="disclaimer"><strong>Loading…</strong></p>
+    </div>
+  </section>
+</main>
+<footer class="m-footer">
+  <div class="m-footer__rule"></div>
+  <p><a href="./index.html">← Back to the Jibhi–Shoja trip site</a></p>
+  <p>Oct 4–8 (+ optional Oct 9) · 2 people · quiet + view filter · ₹20–25k stay cap</p>
+  <p>No listing photos anywhere on this project by policy — “Photo unavailable” is shown instead.</p>
+</footer>
+<script>
+(function(){
+  'use strict';
+  var LAYER_LABEL={stays:'Stays',hotels:'Hotels',places:'Places',cafes:'Cafes'};
+  var TIER_LABEL={under2500:'Under ₹2,500',stretch:'Stretch',confirm:'Confirm price'};
+  var state={layer:'all',tier:'all'};
+  var items=[];
+
+  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function mapsUrl(q){return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);}
+  function priceText(it){
+    if(typeof it.allin==='number'){return '₹'+it.allin.toLocaleString('en-IN')+' / night all-in';}
+    if(it.price_note){return it.price_note;}
+    return '';
+  }
+  function cardHtml(it){
+    var facts=[];
+    if(it.type){facts.push('<span><strong>Type</strong> · '+esc(it.type)+'</span>');}
+    var price=priceText(it);
+    if(price){facts.push('<span><strong>Price</strong> · '+esc(price)+'</span>');}
+    if(it.rating){facts.push('<span><strong>Rating</strong> · ★ '+esc(it.rating)+'</span>');}
+    var tags='<span class="tag tag--layer">'+esc(LAYER_LABEL[it.layer]||it.layer)+'</span>';
+    if(it.tier){tags+='<span class="tag tag--'+esc(it.tier)+'">'+esc(TIER_LABEL[it.tier]||it.tier)+'</span>';}
+    var actions='<a class="mbtn mbtn--solid" href="'+esc(mapsUrl(it.maps_query))+'" target="_blank" rel="noopener">Open in Google Maps</a>';
+    if(it.booking){actions+='<a class="mbtn mbtn--line" href="'+esc(it.booking)+'" target="_blank" rel="noopener">Booking</a>';}
+    var hint=(!it.booking&&it.booking_hint)?'<p class="card__hint">Booking: '+esc(it.booking_hint)+'</p>':'';
+    return '<article class="card" data-layer="'+esc(it.layer)+'"'+(it.tier?' data-tier="'+esc(it.tier)+'"':'')+'>'
+      +'<div class="card__photo" role="img" aria-label="Photo unavailable for '+esc(it.name)+'"><span class="card__photo-icon" aria-hidden="true">✕</span><span class="card__photo-text">Photo unavailable</span></div>'
+      +'<div class="card__body">'
+      +'<div class="card__tags">'+tags+'</div>'
+      +'<h3 class="card__name">'+esc(it.name)+'</h3>'
+      +'<p class="card__area">'+esc(it.area||'')+'</p>'
+      +(facts.length?'<p class="card__facts">'+facts.join('')+'</p>':'')
+      +'<p class="card__why">'+esc(it.why||it.note||'')+'</p>'
+      +hint
+      +'<div class="card__actions">'+actions+'</div>'
+      +'</div></article>';
+  }
+  function applyFilters(){
+    var shown=items.filter(function(it){
+      if(state.layer!=='all'&&it.layer!==state.layer){return false;}
+      if(state.tier!=='all'&&it.tier!==state.tier){return false;}
+      return true;
+    });
+    var wrap=document.getElementById('cards');
+    if(!shown.length){
+      wrap.innerHTML='<div class="cards__empty">No pins match this filter combo. Places and cafes have no budget tier — reset the tier to “All tiers” to see them.</div>';
+    }else{
+      wrap.innerHTML=shown.map(cardHtml).join('');
+    }
+    document.getElementById('list-count').textContent='Showing '+shown.length+' of '+items.length+' pins';
+  }
+  function bindMenu(){
+    var burger=document.getElementById('burger'),menu=document.getElementById('menu'),close=document.getElementById('menuClose');
+    if(!burger||!menu||!close){return;}
+    var open=function(){menu.classList.add('is-open');burger.classList.add('is-open');burger.setAttribute('aria-expanded','true');menu.setAttribute('aria-hidden','false');};
+    var shut=function(){menu.classList.remove('is-open');burger.classList.remove('is-open');burger.setAttribute('aria-expanded','false');menu.setAttribute('aria-hidden','true');};
+    burger.addEventListener('click',function(){menu.classList.contains('is-open')?shut():open();});
+    close.addEventListener('click',shut);
+    menu.querySelectorAll('.menu__link').forEach(function(a){a.addEventListener('click',shut);});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'){shut();}});
+  }
+  function bindFilters(id,key){
+    document.getElementById(id).addEventListener('click',function(e){
+      var btn=e.target.closest('.fbtn');
+      if(!btn){return;}
+      state[key]=btn.dataset[key];
+      this.querySelectorAll('.fbtn').forEach(function(b){b.classList.toggle('is-active',b===btn);});
+      applyFilters();
+    });
+  }
+  function renderCentres(cq){
+    var wrap=document.getElementById('centre-chips');
+    Object.keys(cq||{}).forEach(function(area){
+      var a=document.createElement('a');
+      a.className='chip';
+      a.href=mapsUrl(cq[area]);
+      a.target='_blank';a.rel='noopener';
+      a.textContent=area;
+      wrap.appendChild(a);
+    });
+  }
+  function renderQuarantine(list){
+    var ul=document.getElementById('q-grid');
+    ul.innerHTML=(list||[]).map(function(q){
+      return '<li class="q-card"><h3>'+esc(q.name)+'</h3>'
+        +'<p class="q-card__zone">'+esc(q.zone||'')+'</p>'
+        +'<p class="q-card__reason">'+esc(q.reason||'')+'</p></li>';
+    }).join('');
+  }
+
+  bindMenu();
+  fetch('./data/maps.json')
+    .then(function(r){if(!r.ok){throw new Error('HTTP '+r.status);}return r.json();})
+    .then(function(data){
+      items=(data.layers||['stays','hotels','places','cafes']).reduce(function(acc,layer){
+        return acc.concat((data[layer]||[]).map(function(it){it.layer=it.layer||layer;return it;}));
+      },[]);
+      document.getElementById('cap-note').textContent=(data.meta&&data.meta.cap_note)||'';
+      document.getElementById('disclaimer').textContent=data.disclaimer||'';
+      var meta=data.meta||{};
+      renderCentres(meta.centre_queries||meta[' centre_queries']);
+      renderQuarantine(data.quarantine);
+      bindMenu();
+      bindFilters('layer-filters','layer');
+      bindFilters('tier-filters','tier');
+      applyFilters();
+    })
+    .catch(function(err){
+      var msg='Could not load ./data/maps.json ('+err.message+'). If you opened this file directly (file://), serve the folder instead — e.g. “python -m http.server” — then reload.';
+      document.getElementById('cards').innerHTML='<div class="m-status m-status--error" role="alert">'+esc(msg)+'</div>';
+      document.getElementById('cap-note').textContent='';
+      document.getElementById('disclaimer').textContent='';
+      document.getElementById('q-grid').innerHTML='<li class="m-status m-status--error">Unavailable — data failed to load.</li>';
+    });
+})();
+</script>
+</body>
+</html>
